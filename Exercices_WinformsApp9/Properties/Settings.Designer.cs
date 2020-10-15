@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Exercices_WinformsApp8.Properties
+namespace Exercices_WinformsApp9.Properties
 {
 
 

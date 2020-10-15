@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9613199E-7A20-4295-8BE6-B537F254144C}</ProjectGuid>
+    <ProjectGuid>{EDE2F16A-AAE4-4945-B55D-72302FACD625}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exercices_WinformsApp8</RootNamespace>
-    <AssemblyName>Exercices_WinformsApp8</AssemblyName>
+    <RootNamespace>Exercices_WinformsApp9</RootNamespace>
+    <AssemblyName>Exercices_WinformsApp9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
