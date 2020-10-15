@@ -1,0 +1,10 @@
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\bin\Debug\Exercice_WinformsApp8.exe.config
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\bin\Debug\Exercice_WinformsApp8.exe
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\bin\Debug\Exercice_WinformsApp8.pdb
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.csprojAssemblyReference.cache
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.Form1.resources
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.Properties.Resources.resources
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.csproj.GenerateResource.cache
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.csproj.CoreCompileInputs.cache
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.exe
+C:\Users\CharliEnglish\Desktop\Segundo DAM\1ª Evaluacion\Desarrollo de interfaces\Exercices_WinformsApp\Exercice_WinformsApp8\obj\Debug\Exercice_WinformsApp8.pdb
