@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp3", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp4", "Exercices_WinformsApp4\Exercices_WinformsApp4.csproj", "{13727961-17B1-46CA-915A-F202E63FCA66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp5", "Exercices_WinformsApp5\Exercices_WinformsApp5.csproj", "{2C4B8133-43FF-4C46-B4CF-1B1CE114D7F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{13727961-17B1-46CA-915A-F202E63FCA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13727961-17B1-46CA-915A-F202E63FCA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13727961-17B1-46CA-915A-F202E63FCA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4B8133-43FF-4C46-B4CF-1B1CE114D7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4B8133-43FF-4C46-B4CF-1B1CE114D7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4B8133-43FF-4C46-B4CF-1B1CE114D7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4B8133-43FF-4C46-B4CF-1B1CE114D7F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
