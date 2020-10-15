@@ -30,14 +30,13 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.SumButton = new System.Windows.Forms.Button();
-            this.SubstractButton = new System.Windows.Forms.Button();
             this.OperationChoosed = new System.Windows.Forms.TextBox();
             this.resultBox = new System.Windows.Forms.TextBox();
             this.CalculateButton = new System.Windows.Forms.Button();
             this.ResetButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -53,26 +52,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 1;
-            // 
-            // SumButton
-            // 
-            this.SumButton.Location = new System.Drawing.Point(336, 79);
-            this.SumButton.Name = "SumButton";
-            this.SumButton.Size = new System.Drawing.Size(101, 23);
-            this.SumButton.TabIndex = 2;
-            this.SumButton.Text = "Sum";
-            this.SumButton.UseVisualStyleBackColor = true;
-            this.SumButton.Click += new System.EventHandler(this.SumButton_Click);
-            // 
-            // SubstractButton
-            // 
-            this.SubstractButton.Location = new System.Drawing.Point(336, 175);
-            this.SubstractButton.Name = "SubstractButton";
-            this.SubstractButton.Size = new System.Drawing.Size(101, 23);
-            this.SubstractButton.TabIndex = 3;
-            this.SubstractButton.Text = "Substract";
-            this.SubstractButton.UseVisualStyleBackColor = true;
-            this.SubstractButton.Click += new System.EventHandler(this.SubstractButton_Click);
             // 
             // OperationChoosed
             // 
@@ -92,9 +71,9 @@
             // 
             // CalculateButton
             // 
-            this.CalculateButton.Location = new System.Drawing.Point(119, 297);
+            this.CalculateButton.Location = new System.Drawing.Point(96, 296);
             this.CalculateButton.Name = "CalculateButton";
-            this.CalculateButton.Size = new System.Drawing.Size(75, 23);
+            this.CalculateButton.Size = new System.Drawing.Size(93, 36);
             this.CalculateButton.TabIndex = 6;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
@@ -104,7 +83,7 @@
             // 
             this.ResetButton.Location = new System.Drawing.Point(555, 296);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(75, 23);
+            this.ResetButton.Size = new System.Drawing.Size(75, 36);
             this.ResetButton.TabIndex = 7;
             this.ResetButton.Text = "Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
@@ -129,19 +108,31 @@
             this.label2.Text = "Choose an operand";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Items.AddRange(new object[] {
+            "+",
+            "-"});
+            this.listBox1.Location = new System.Drawing.Point(371, 112);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(21, 36);
+            this.listBox1.TabIndex = 10;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.resultBox);
             this.Controls.Add(this.OperationChoosed);
-            this.Controls.Add(this.SubstractButton);
-            this.Controls.Add(this.SumButton);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
@@ -155,14 +146,13 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button SumButton;
-        private System.Windows.Forms.Button SubstractButton;
         private System.Windows.Forms.TextBox OperationChoosed;
         private System.Windows.Forms.TextBox resultBox;
         private System.Windows.Forms.Button CalculateButton;
         private System.Windows.Forms.Button ResetButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

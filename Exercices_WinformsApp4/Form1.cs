@@ -67,6 +67,18 @@ namespace Exercices_WinformsApp4
             textBox2.Text = "0";
             resultBox.Text = "0";
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(listBox1.SelectedIndex == 0)
+            {
+                OperationChoosed.Text = "+";
+            }
+            else if (listBox1.SelectedIndex == 1)
+            {
+                OperationChoosed.Text = "-";
+            }
+        }
     }
 }
 
