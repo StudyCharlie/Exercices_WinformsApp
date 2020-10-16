@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp9", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp8", "Exercices_WinformsApp8\Exercices_WinformsApp8.csproj", "{9613199E-7A20-4295-8BE6-B537F254144C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercices_WinformsApp10", "Exercices_WinformsApp10\Exercices_WinformsApp10.csproj", "{55E0A38C-6CD6-44AD-B347-AF1B6690EDCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9613199E-7A20-4295-8BE6-B537F254144C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9613199E-7A20-4295-8BE6-B537F254144C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9613199E-7A20-4295-8BE6-B537F254144C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E0A38C-6CD6-44AD-B347-AF1B6690EDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E0A38C-6CD6-44AD-B347-AF1B6690EDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E0A38C-6CD6-44AD-B347-AF1B6690EDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E0A38C-6CD6-44AD-B347-AF1B6690EDCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
